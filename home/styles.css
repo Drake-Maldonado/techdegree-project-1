@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
   
-body {
+ body {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: indianred;
 }
 
 /* Section Styles */
@@ -55,7 +55,7 @@ a:hover {
   color: goldenrod
 }
 
-header {
+.home-header {
   text-align: center;
   background: url('images/background.jpg') no-repeat top center;
   background-size: cover;
@@ -87,7 +87,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: mediumseagreen;
+  color: mediumturquoise;
 }
 .card {
   margin: 30px;
@@ -98,9 +98,10 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: moccasin;
 }
 
 ul.skills {
@@ -118,7 +119,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: mediumturquoise;
 }
 
 footer {
@@ -167,7 +168,38 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+/* About Page Styles */
 
+.about-header{
+  text-align:center;
+  background-image: url('../about/images/khya.jpg');
+  background-size: cover;
+  height:650px;
+  background-position:
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.tag name-about {
+  background-color: indianred;
+  color: bisque;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+  
+}
+
+.card img {
+  height:400px;
+  border: solid lightsalmon 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin:5px;
+  width:auto;
+  
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
