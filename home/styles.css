@@ -61,7 +61,7 @@ a:hover {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-  min-height:800px;
+  min-height:600px;
 }
 header {
   line-height: 1.5;
@@ -93,7 +93,6 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  width:800px;
   max-width: 800px;
   text-align: left;
   background: #fff;
@@ -177,10 +176,10 @@ a.social:hover {
   text-align: center;
   background: url('../experience/images/work.jpg') no-repeat top center;
   background-size: cover;
-  background-position: 
+  background-position:100% 70%; 
   overflow: hidden;
   padding-top: 60px;
-  height:650px;
+  min-height:600px;
 }
   .tag {
   background-color: indianred;
@@ -197,11 +196,11 @@ a.social:hover {
   text-align:center;
   background-image: url('../about/images/khya.jpg');
   background-size: cover;
-  height:650px;
+  background-position:100% 5%;
   background-repeat: no-repeat;
   overflow: hidden;
   padding-top: 60px;
-  min-height: 800px;
+  min-height: 600px;
 
   
 }
