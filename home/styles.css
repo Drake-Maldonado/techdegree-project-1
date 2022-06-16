@@ -168,6 +168,17 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+/* Experience Page Styles */
+
+.experience-header {
+  text-align: center;
+  background: url('../experience/images/work.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  height:650px;
+  
+}
 /* About Page Styles */
 
 .about-header{
@@ -175,10 +186,10 @@ a.social:hover {
   background-image: url('../about/images/khya.jpg');
   background-size: cover;
   height:650px;
-  background-position:
   background-repeat: no-repeat;
   overflow: hidden;
   padding-top: 60px;
+  
 }
 .tag name-about {
   background-color: indianred;
@@ -200,6 +211,7 @@ a.social:hover {
   width:auto;
   
 }
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
