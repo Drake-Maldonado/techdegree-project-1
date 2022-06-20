@@ -191,7 +191,7 @@ a.social:hover {
 
 .experience-header {
   text-align: center;
-  background: url('../experience/images/work.jpg') no-repeat top center;
+  background: url('images/work.jpg') no-repeat top center;
   background-size: cover;
   background-position: 100% 70%;
   overflow: hidden;
@@ -210,18 +210,6 @@ a.social:hover {
 }
 
 /* About Page Styles */
-
-/* .about-header {
-  text-align: center;
-  background-image: url('../about/images/khya.jpg');
-  background-size: cover;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  padding-top: 60px;
-  min-height: 600px;
-
-} */
 
 .about-header {
   padding-top: 60px;
